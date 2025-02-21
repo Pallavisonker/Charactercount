@@ -1,0 +1,31 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(75, 58, 58);
+    text : bold;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    padding: 30px 100px;
+    background-color: gray;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+    font-size: 200%;
+    border: 2px solid black;
+}
+p{
+    font-size: 35px;
+}
